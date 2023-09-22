@@ -8,6 +8,8 @@
 <meta name="og:title" content="@dei new post" />
 
 
+<link rel="stylesheet" href="custom.css" type="text/css" media="all" />
+
 
 <script src="https://unpkg.com/jquery@3.3.1/dist/jquery.min.js"></script>
 
@@ -47,8 +49,12 @@
 <title>dJourney</title>
 
     </head>
-    <body>
+    <body class="fixed" id="body" onload="loadx()">
+      <div class="loader" id="loader">
+        <img src="output-onlinegiftools.gif" alt="loading" />
+      </div>
         <div class="page">
+          
             <div class="jumbotron" style="background-image: url(dei.jpg);">
     <div class="container">
         <div class="site-title">dJourney</div>
@@ -152,7 +158,8 @@
 
 
 
-
+        
+        <script src="custom.js" type="text/javascript" charset="utf-8"></script>
     </body>
 
 </html>

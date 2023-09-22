@@ -1,0 +1,23 @@
+.done {
+  display: none !important;
+}
+.fixed {
+  position: fixed !important;
+}
+
+.loader {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  background: white;
+}
+.loader > img {
+  width: 100px;
+}
+body {
+  position: fixed;
+}
